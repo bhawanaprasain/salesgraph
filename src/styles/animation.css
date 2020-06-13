@@ -1,0 +1,75 @@
+
+
+  .box-area li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.2);
+    animation: animate 30s linear infinite;
+   bottom: -830px;
+
+}
+.box-area li:nth-child(1){
+    left: 66%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 1s;
+    bottom: -684px;
+
+}
+.box-area li:nth-child(2){
+  left: 22%;
+  width: 40px;
+  height: 40px;
+  animation-delay: 0.5s;
+  animation-duration: 23s;
+
+}
+
+.box-area li:nth-child(3){
+  left: 10%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 2s;
+
+}
+
+.box-area li:nth-child(4){
+  left: 82%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 25s;
+
+}
+
+.box-area li:nth-child(5){
+  left: 65%;
+  width: 40px;
+  height: 40px;
+  animation-delay: 1.5s;
+
+}
+
+.box-area li:nth-child(6){
+  left: 45%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3.5s;
+  animation-duration: 20s;
+
+
+}
+
+@keyframes animate{
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+  }
+  100%{
+      transform: translateY(-800px) rotate(360deg);
+      opacity: 0;
+  }
+}

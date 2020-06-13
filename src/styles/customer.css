@@ -1,0 +1,18 @@
+.customer{
+    background-color: #ff871c;
+    color: white;
+    width: 100%;
+}
+
+.customer .item{
+    padding: 20px
+
+}
+.customer .item p, .customer .item h2, .customer .item h3{
+    text-align: center;
+
+}
+.customer h1{
+    text-align: center;
+    padding-top: 30px;
+}
