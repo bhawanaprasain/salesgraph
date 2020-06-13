@@ -14,7 +14,7 @@ class Customer extends React.Component {
     
     };
     return (
-      <div className="customer">
+      <div className="container-fluid customer">
         <h1>What our customers say</h1>
         <Slider {...settings}>
         <div className="item">

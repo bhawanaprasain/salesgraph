@@ -1,9 +1,4 @@
 
-*{
-    overflow-x: hidden;
-
-}
-
 body{
     font-size: 20px;
 }
@@ -123,28 +118,23 @@ body{
 }
 .about h3{
     font-weight: bold;
-    margin: 2px auto;
+    text-align: center;
     margin-top: 20px;
     color: #ff871c;
+ 
 }
 
 .about p{
-    margin: 0 auto;
+    padding:10px 30px;
+    text-align: center;
 }
-.item button{
-    background-color: white;
-    border-radius: 20px;
-    color: #ff871c;
-    padding: 8px;
-    border: none;
-    font-size: 110%;
-    margin: 10px auto;
-   
 
-  
-}
 .item{
     color: white;
+}
+.item p{
+    padding:5px 20px;
+    text-align: center;
 }
 .item1, .item2, .item3, .item4{
     margin: 25px 15%;
@@ -153,7 +143,17 @@ body{
 }
 .item h2, .item h3{
     font-weight: bold;
-    margin: 15px auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.item button{
+    background-color: white;
+    border-radius: 20px;
+    color: #ff871c;
+    padding: 8px;
+    border: none;
+    font-size: 110%;
+    margin:10px 28% ;
 }
 .message{
     margin-top: 70px;
