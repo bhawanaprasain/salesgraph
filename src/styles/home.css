@@ -198,8 +198,12 @@ input, textarea{
   .send-msg{
       width: 50%;
   }
-  body{
-      overflow-x: hidden !important;
-  }
 
+
+}
+@media (max-width: 576px){
+    body{
+        max-width: 100vw !important;
+       overflow-x: hidden;
+    }
 }
