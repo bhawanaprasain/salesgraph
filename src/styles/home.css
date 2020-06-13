@@ -198,5 +198,8 @@ input, textarea{
   .send-msg{
       width: 50%;
   }
+  body{
+      overflow-x: hidden !important;
+  }
 
 }
