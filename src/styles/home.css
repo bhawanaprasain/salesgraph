@@ -1,3 +1,4 @@
+
 *{
     overflow-x: hidden;
 
@@ -5,9 +6,7 @@
 
 body{
     font-size: 20px;
-
 }
-
 .head-section{
     height: 10vh;
     background-color: #ff871c;
@@ -114,14 +113,13 @@ body{
     color: black;
     font-weight: bold;
 }
-.wrapper{
-    background-color: #f8f8f8;
 
-}
 
 .about{
     margin-bottom: 20px;
     padding: 20px 0;
+    background-color: #f8f8f8;
+
 }
 .about h3{
     font-weight: bold;

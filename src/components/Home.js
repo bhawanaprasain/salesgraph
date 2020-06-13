@@ -93,7 +93,7 @@ import {Link} from "react-router-dom"
                         <h3>About sales</h3>
                     </div>
                     <div className="row ">
-                        <p>We make online shopping easier by letting people visualize trending sales. Before purchasing , get a quick overview of which products are on trend.</p>
+                        <p className="m-auto">We make online shopping easier by letting people visualize trending sales. Before purchasing , get a quick overview of which products are on trend.</p>
                     </div>
                     
                 </div>
