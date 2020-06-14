@@ -24,7 +24,7 @@ import {Link} from "react-router-dom"
                             <Link className="nav-link">ABOUT</Link>
                     </li>
                     <li className="nav-item">
-                            <Link className="nav-link">PURCHASE</Link>
+                            <Link to="purchase" className="nav-link">PURCHASE</Link>
                     </li>
                 </ul>
                </div>
@@ -74,14 +74,14 @@ import {Link} from "react-router-dom"
                    <div className="row">
                         <div className="col-sm-4 offset-sm-2 phone">
                             <div className="phone-details">
-                                <i class="fas fa-mobile" aria-hidden="true"></i>
+                                <i className="fas fa-mobile" aria-hidden="true"></i>
                                 <h2>20</h2>
                                 <h3>Mobile</h3>
                             </div>
                         </div>
                         <div className="col-sm-4  book">
                             <div className="book-details">
-                                <i class="fas fa-book" aria-hidden="true"></i>
+                                <i className="fas fa-book" aria-hidden="true"></i>
                                 <h2>20</h2>
                                 <h3>Books</h3>
                             </div>

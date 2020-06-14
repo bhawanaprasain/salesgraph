@@ -6,9 +6,9 @@ import "../styles/footer.css"
         <div>
             <div className="row footer">
                
-                <button type="button" class="btn btn-social-icon btn-facebook btn-rounded"><i class="fa fa-facebook"></i></button>
-                <button type="button" class="btn btn-social-icon btn-twitter btn-rounded"><i class="fa fa-twitter"></i></button>
-                <button type="button" class="btn btn-social-icon btn-linkedin btn-rounded"><i class="fa fa-linkedin"></i></button>
+                <button type="button" className="btn btn-social-icon btn-facebook btn-rounded"><i className="fa fa-facebook"></i></button>
+                <button type="button" className="btn btn-social-icon btn-twitter btn-rounded"><i className="fa fa-twitter"></i></button>
+                <button type="button" className="btn btn-social-icon btn-linkedin btn-rounded"><i className="fa fa-linkedin"></i></button>
 
             </div>
         </div>
