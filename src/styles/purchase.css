@@ -1,0 +1,36 @@
+.togglebtns{
+    background-color:#ff871c;
+
+}
+
+.type1{
+    color: white;
+    background-color:#ff871c;
+    padding: 8px;
+    border: none;
+    font-size: 110%;
+    margin: 20px ;
+}
+.left{
+    margin-right: auto;
+}
+.type2{
+    color: white;
+    background-color:#ff871c;
+    padding: 8px;
+    border: none;
+    font-size: 110%;
+    margin: 20px;
+ 
+}
+.exit{
+    width: 80px;
+}
+
+.sweet-warning{
+    background-color: #2bc20d;
+}
+
+.sweet-warning:not([disabled]):hover{
+    background-color: #ff871c       ;
+}

@@ -5,8 +5,25 @@ import Footer from "./Footer"
 import Customer from "./Customer"
 import Message from './Message'
 import {Link} from "react-router-dom"
+import $ from "jquery"
 
  function Home() {
+    $(document).ready(function(){
+        $(".aboutlink").click(function() {
+            $('html,body').animate({
+                scrollTop: $(".about").offset().top},
+                'slow');
+       });
+
+       $(".contactlink").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".message").offset().top},
+            2000);
+   });
+      
+       })
+
+
     return (
         <div className="container-fluid" >
         <div className="head-section row">
@@ -18,9 +35,9 @@ import {Link} from "react-router-dom"
                <div className="collapse navbar-collapse" id="navbar-menu">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                            <Link className="nav-link">HOME</Link>
+                            <Link className="nav-link contactlink">CONTACT</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item aboutlink">
                             <Link className="nav-link">ABOUT</Link>
                     </li>
                     <li className="nav-item">
@@ -93,7 +110,7 @@ import {Link} from "react-router-dom"
                     <div className="col-12">
                             <h3 className="">About sales</h3>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 about-section">
                             <p >We make online shopping easier by letting people visualize trending sales. Before purchasing , get a quick overview of which products are on trend.</p>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ class Customer extends React.Component {
     var settings = {
       dots: true,
       infinite: true,
-      // speed: 100,
+      speed: 2,
       autoplay: true
     
     };
@@ -18,21 +18,21 @@ class Customer extends React.Component {
         <h1>What our customers say</h1>
         <Slider {...settings}>
         <div className="item">
-          <p>It is best site . We can know what is in trend on market and shop without confusion</p>
-          <h2>Bhawana prasain</h2>
+          <p>It's quite helpful. We can know what is in trend on market and shop without confusion</p>
+          <h2>Aastha Dahal</h2>
           <h3>Customer</h3>
         </div>
-        <div className="item">
-        <p>It is best site . We can know what is in trend on market and shop without confusion</p>
-          <h2>Bhawana prasain</h2>
-          <h3>Customer</h3>
 
+        <div className="item">
+          <p>Shop by taking  a glimpse of trending products.</p>
+          <h2>Leeza Kunwar</h2>
+          <h3>Customer</h3>
         </div>
-        <div className="item">
-        <p>It is best site . We can know what is in trend on market and shop without confusion</p>
-          <h2>Bhawana prasain</h2>
-          <h3>Customer</h3>
 
+        <div className="item">
+          <p>It's quite easy to know what is on trend in the market.</p>
+          <h2>Sujan</h2>
+          <h3>Customer</h3>
         </div>
       </Slider>
 

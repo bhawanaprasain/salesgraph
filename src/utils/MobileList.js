@@ -94,7 +94,7 @@ const redmi =[
     },
     {
         id: 17,
-        name: "ARedmi 6A",
+        name: "Redmi 6A",
         price:" NRS 11,999"
     },
     {
