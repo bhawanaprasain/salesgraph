@@ -189,6 +189,7 @@ input, textarea{
         .sales{
             padding-bottom: 0px;
         }
+       
 }
 
 @media (max-width: 1200px) {
@@ -200,6 +201,12 @@ input, textarea{
   }
 
 
+}
+
+@media (max-width: 764px){
+  .head-section{
+      padding-bottom: 18vh;
+  }
 }
 @media (max-width: 576px){
     body{

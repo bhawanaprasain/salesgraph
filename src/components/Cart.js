@@ -1,6 +1,7 @@
 import React , {useState, useEffect, useContext} from 'react'
 import "../styles/cart.css"
 import swal from 'sweetalert';
+import axios from "axios"
 import "../styles/buyer.css"
 import $ from "jquery"
 import OrderContext from "./OrderContext"
@@ -142,14 +143,33 @@ const editItem= (item)=>{
             })
            }
            else{
-            swal({
-                title: "Thank you",
-                text: `We will deliver soon`,
-                icon:"success",
-                buttons:{
-                confirm:{text:'OK',className:'sweet-warning'},
-                }
+            var huwaei = orders.filter(item=> item.category === "huawei")
+            var samsung = orders.filter(item=> item.category === "samsung")
+            var redmi = orders.filter(item=> item.category === "redmi")
+            var oppo = orders.filter(item=> item.category === "oppo")
+            var kids = orders.filter(item=> item.category === "kids")
+            var realStories = orders.filter(item=> item.category === "realStories")
+            var biogarphy = orders.filter(item=> item.category === "biogarphy")
+            var fiction = orders.filter(item=> item.category === "fiction")
+            var orderData ={
+                huwaei,samsung,redmi,oppo,kids,realStories,biogarphy,fiction
+            }
+            axios.post("http://localhost:4000/order/details", orderData).then((response)=>{
+                console.log(response);
+                swal({
+                    title: "Thank you",
+                    text: `We will deliver soon`,
+                    icon:"success",
+                    buttons:{
+                    confirm:{text:'OK',className:'sweet-warning'},
+                    }
+                })
             })
+            .catch(function(error){
+                alert(error)
+            })
+                 
+          
            }
        } 
     }
