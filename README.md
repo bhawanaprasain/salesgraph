@@ -11,3 +11,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+## To visualize sales 
+
+Clone the [backend](https://github.com/bhawanaprasain/Salesgraph-backend) of this repository
+Then run
+### npm install
+### nodemon app.js
+
