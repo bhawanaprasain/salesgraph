@@ -58,7 +58,7 @@ const realStories =[
     }
 ]
 
-const biogarphy = [
+const biography = [
     {
         id: 11,
         name: "Steve Jobs",
@@ -114,4 +114,4 @@ const fiction =[
     }
 ]
 
-export default{kids, realStories,biogarphy,fiction}
+export default{kids, realStories,biography,fiction}

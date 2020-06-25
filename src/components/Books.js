@@ -112,7 +112,7 @@ const quantityRegex = RegExp(/^\d*$/)
                                                 <div className="m-auto col-6 error" id={book.id}></div>
                                             )}
                                         </div>
-                                        <button onClick={()=>handleOrder("realstories",book.id,book.name,book.price, quantity)}>Order</button>
+                                        <button onClick={()=>handleOrder("realStories",book.id,book.name,book.price, quantity)}>Order</button>
                                     </div>
                                 </div>
                                 )
@@ -143,7 +143,7 @@ const quantityRegex = RegExp(/^\d*$/)
                     </div>
 
                     <div className="row d-flex justify-content-center">
-                        {BooksList.biogarphy.map(book=>{
+                        {BooksList.biography.map(book=>{
                         return(
                                 <div className="col-md-5 eachbook" key={book.id} align="center">
                                     <div className="upper-portion">

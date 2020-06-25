@@ -28,7 +28,7 @@ import $ from "jquery"
         <div className="container-fluid" >
         <div className="head-section row">
            <nav className="navbar navbar-expand-md navbar-default">
-               <Link className="navbar-brand">SALES</Link>
+               <div className="navbar-brand">SALES</div>
                <button className="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#navbar-menu">
                    <span className="navbar-toggler-icon"></span>
                </button>
@@ -63,18 +63,20 @@ import $ from "jquery"
                        <div className="container">
                        <div className="row offset-1 heading">
                             <h1 >
-                                Analayze  daily and weekly sales of all products 
+                                Analayze  total sales of all products 
                             </h1>
                         </div>
 
                         <div className="row offset-1 desc-para">
-                            <p>See the daily and weekly rise and fall of sales and purchase trending items</p>
+                            <p>See the total rise and fall of sales and purchase trending items</p>
                         </div>
 
                         <div className="row offset-1 sales">
-                        <button className="sales-btn">
-                            View Sales
-                        </button>
+                        <Link to="/graph">
+                            <button className="sales-btn">
+                                View Sales
+                            </button>
+                        </Link>
                         </div>
                        </div>
                    </div>

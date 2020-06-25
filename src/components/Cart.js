@@ -149,14 +149,23 @@ const editItem= (item)=>{
             var oppo = orders.filter(item=> item.category === "oppo")
             var kids = orders.filter(item=> item.category === "kids")
             var realStories = orders.filter(item=> item.category === "realStories")
-            var biogarphy = orders.filter(item=> item.category === "biogarphy")
+            var biography = orders.filter(item=> item.category === "biography")
             var fiction = orders.filter(item=> item.category === "fiction")
             var orderData ={
-                huwaei,samsung,redmi,oppo,kids,realStories,biogarphy,fiction
+                huwaei,samsung,redmi,oppo,kids,realStories,biography,fiction
             }
+            swal({
+                title: "Thank you",
+                text: `We will deliver soon`,
+                icon:"success",
+                buttons:{
+                confirm:{text:'OK',className:'sweet-warning'},
+                }
+            })
+            
             axios.post("http://localhost:4000/order/details", orderData).then((response)=>{
                 console.log(response);
-                swal({
+               swal({
                     title: "Thank you",
                     text: `We will deliver soon`,
                     icon:"success",
